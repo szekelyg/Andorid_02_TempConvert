@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Temp Convert</string>
+    <string name="temp_converter">Temp Converter</string>
+    <string name="temp_hint_text">Enter temperature</string>
+    <string name="celsius_button_title">C</string>
+    <string name="f_button_title">F</string>
+    <string name="converted_temp"></string>
+
+</resources>
