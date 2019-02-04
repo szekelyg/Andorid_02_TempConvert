@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="162dp"
         android:ems="10"
+        android:hint="@string/temp_hint_text"
         android:inputType="textPersonName"
-        android:text="@string/temp_hint_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="410dp"
         android:text="@string/converted_temp"
-        android:textSize="30sp"
+        android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

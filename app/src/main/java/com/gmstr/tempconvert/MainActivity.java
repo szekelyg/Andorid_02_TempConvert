@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                     String stirngResult = String.valueOf(round.format(convertedToCel));
 
-                    showTempTextViev.setText(stirngResult);
+                    showTempTextViev.setText(stirngResult + " C");
 
                 }
 
@@ -62,9 +62,9 @@ public class MainActivity extends AppCompatActivity {
                     double convertedToF = convertToFarenheit(intEditText);
 
                     String stirngResult = String.valueOf(round.format(convertedToF));
-                    
 
-                    showTempTextViev.setText(stirngResult);
+
+                    showTempTextViev.setText(stirngResult + " F");
                 }
 
 
